@@ -126,7 +126,7 @@ nav .menu a{
 }
 
 
-#stucture .st-container{
+#structure .st-container{
     padding-left: 120px;
     padding-right: 120px;
     margin: 0px auto;
@@ -150,13 +150,38 @@ nav .menu a{
     color: #627382;
 }
 
-#stucture .st-container .info{
+#structure .st-container .info{
     display: flex;
     gap: 24px;
     margin-top: 40px;
     justify-content: center;
     align-items: center;
     color:#627382;
+    flex-wrap: wrap;
 }
+
+.info-curd {
+  width: 260px;
+  text-align: center;
+}
+
+.info-curd .info-im {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+  background-color: #F95555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.img1{
+    height: 27px;
+    width: 29px;
+
+}
+
 
 
