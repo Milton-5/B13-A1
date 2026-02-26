@@ -101,6 +101,10 @@ nav .menu a{
     border-radius: 20px;
     font-size: 14px;
 }
+.i{
+    width: 16px;
+    height: 16px;
+}
 
 .b1{
     background-color: #30B868;
@@ -175,12 +179,11 @@ nav .menu a{
   height: 60px;
   margin: 0 auto 15px;
   background-color: #F95555;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
+
 
 .img1{
     height: 26px;
@@ -198,6 +201,47 @@ nav .menu a{
     font-size: 16px;
     line-height: 20px;
     margin-top: 16px;
+}
+
+.Design {
+    padding: 100px 120px;
+}
+
+.Design-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.Design-image img {
+    width: 600px;
+    border-radius: 12px
+}
+
+.Design-text h1 {
+    font-size: 48px;
+}
+
+.Design-text h5 {
+    font-size: 16px;
+}
+
+.Design-text p {
+    color: #627382;
+    line-height: 20px;
+}
+
+.Design-list {
+    font-size: 16px;
+    margin-top: 40px;
+    list-style: none;
+    padding: 0;
+}
+
+.Design-list li {
+    font-size: 16spx;
+    margin-bottom: 12px;
+    color: #1e293b;
 }
 
 
