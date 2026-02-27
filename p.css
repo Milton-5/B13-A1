@@ -202,10 +202,6 @@ nav .menu a{
     margin-top: 16px;
 }
 
-/*.Design {
-    padding: 100px 120px;
-}*/
-
 .Design {
     padding: 100px 120px;
     background-color: #fff;
@@ -266,5 +262,80 @@ nav .menu a{
     height: 16px;
     margin: 0 8px;
 }
+
+.ts{
+    
+}
+
+.ts-container {
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    text-align: center;
+    margin: 0px 120px 120px 120px;
+    padding: 40px 80px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+
+.ts-text h1 {
+    padding :0 0 24px 0;
+    font-size: 40px;
+    color: #0F172A;
+    margin-bottom: 15px;
+}
+
+ .ts-text p {
+    font-size: 18px;
+    color: #64748B;
+}
+.ts-container2 p {
+    font-size: 18px;
+    color: #64748B;
+    margin: 5px 0;
+    text-shadow: 0 4px 4px 0 #000000;
+
+}
+
+.ts-text .b1 {
+    width: 194px;
+    height: 52px;
+    background-color: #469165;
+    padding: 12px 14px;
+    border: none;
+    font-size: 16px;
+    font-weight: 132px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.footer-final{
+    background-color: #001931;
+    padding: 60px 20px 20px;
+    border-top: 1px solid white;
+}
+.logo img {
+    height: 51px;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-social h6{
+    color:#F7F6F2;
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+.footer-bottom p{
+    color:#F7F6F2;
+    font-size: 16px;
+}
+
 
 
