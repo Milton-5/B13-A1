@@ -295,11 +295,17 @@ nav .menu a{
     border-radius: 12px;
 }
 
+
 .ts-text h1 {
     padding :0 0 24px 0;
     font-size: 40px;
     color: #0F172A;
     margin-bottom: 15px;
+}
+
+.ts-text h1:hover{
+    color: #30B868;
+    margin-bottom: 17px;
 }
 
  .ts-text p {
