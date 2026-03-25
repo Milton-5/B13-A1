@@ -179,13 +179,17 @@ nav .menu a{
     flex-wrap: wrap;
 }
 
-.info-curd {
+.info-curd { border-radius: 8px;
     max-width: 305px;
     height: 298px;
     text-align: center;
     padding:24px;
     border-radius: 8px;
     box-shadow: 0 0 8px 0 #00000015;
+}
+.info-curd:hover{
+     border-radius: 12px;
+
 }
 
 .info-curd .info-im {
@@ -210,6 +214,11 @@ nav .menu a{
     line-height: 24px;
     margin-top: 16Spx;
     font-weight: semi-bold;
+}
+h3:hover{
+    color: #30B868;
+    font-weight: bold;
+    font-size: 22px;
 }
 .info-curd p{
     font-size: 16px;
